@@ -1,0 +1,11 @@
+com\digiCRMTest\autoqa\pages\UserLandingPage.class
+com\digiCRMTest\autoqa\util\TestUtil.class
+com\digiCRMTest\autoqa\base\TestBase.class
+com\digiCRMTest\autoqa\pages\PasswordResetPage.class
+com\digiCRMTest\autoqa\pages\SignUpPage.class
+com\digiCRMTest\autoqa\pages\DealsPage.class
+com\digiCRMTest\autoqa\pages\HomePage.class
+com\digiCRMTest\autoqa\util\WebEventListener.class
+com\digiCRMTest\autoqa\pages\ContactsPage.class
+com\digiCRMTest\autoqa\pages\LoginPage.class
+com\digiCRMTest\autoqa\ExtentReportListener\ExtentReporterNG.class

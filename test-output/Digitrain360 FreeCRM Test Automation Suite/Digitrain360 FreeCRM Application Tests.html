@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>TestNG:  Digitrain360 FreeCRM Application Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Digitrain360 FreeCRM Application Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 20 10:45:41 EST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>130 seconds (130240 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.LoginPageTest.PasswordResetLinkTest()'><b>PasswordResetLinkTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.LoginPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Reset Password] but found [Cogmento CRM]
+	at com.digiCRMTest.autoqa.testcases.LoginPageTest.PasswordResetLinkTest(LoginPageTest.java:52)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1449664175", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1449664175'><pre>java.lang.AssertionError: expected [Reset Password] but found [Cogmento CRM]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.digiCRMTest.autoqa.testcases.LoginPageTest.PasswordResetLinkTest(LoginPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.digiCRMTest.autoqa.testcases.LoginPageTest@6eebc39e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.UserLandingPageTest.ContactsLinkTest()'><b>ContactsLinkTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.UserLandingPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.digiCRMTest.autoqa.testcases.UserLandingPageTest@464bee09</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.HomePageTest.LoginButtonTest()'><b>LoginButtonTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.digiCRMTest.autoqa.testcases.HomePageTest@146ba0ac</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.LoginPageTest.LoginTest()'><b>LoginTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.LoginPageTest<br/>
+<a href="#Output-698676628" onClick='toggleBox("Output-698676628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-698676628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-698676628">
+Actual Title: Cogmento CRM<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.digiCRMTest.autoqa.testcases.LoginPageTest@6eebc39e</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.ContactsPageTest.contactsPageTitleTest()'><b>contactsPageTitleTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.ContactsPageTest<br/>
+<a href="#Output-2106165633" onClick='toggleBox("Output-2106165633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2106165633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2106165633">
+Contacts Page Header: Contacts<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.digiCRMTest.autoqa.testcases.ContactsPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.ContactsPageTest.createNewContactTest()'><b>createNewContactTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.ContactsPageTest<br>Parameters: TestFname1, TestLname1</td>
+<td></td>
+<td>2</td>
+<td>com.digiCRMTest.autoqa.testcases.ContactsPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.ContactsPageTest.createNewContactTest()'><b>createNewContactTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.ContactsPageTest<br>Parameters: TestFname2, TestLname2</td>
+<td></td>
+<td>2</td>
+<td>com.digiCRMTest.autoqa.testcases.ContactsPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.ContactsPageTest.createNewContactTest()'><b>createNewContactTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.ContactsPageTest<br>Parameters: TestFname3, TestLname3</td>
+<td></td>
+<td>2</td>
+<td>com.digiCRMTest.autoqa.testcases.ContactsPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.UserLandingPageTest.dealLinkTest()'><b>dealLinkTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.UserLandingPageTest<br/>
+<a href="#Output-715534618" onClick='toggleBox("Output-715534618", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-715534618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-715534618">
+Deals Page Header: Deals<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.digiCRMTest.autoqa.testcases.UserLandingPageTest@464bee09</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.HomePageTest.homePageTitleTest()'><b>homePageTitleTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.digiCRMTest.autoqa.testcases.HomePageTest@146ba0ac</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.digiCRMTest.autoqa.testcases.LoginPageTest@6eebc39e</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.PasswordResetPageTest.resetPasswordTest()'><b>resetPasswordTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.PasswordResetPageTest<br/>
+<a href="#Output-1987154353" onClick='toggleBox("Output-1987154353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1987154353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1987154353">
+Thank you. If this account is registered you will receive an email with a password reset link.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.digiCRMTest.autoqa.testcases.PasswordResetPageTest@f6c48ac</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.UserLandingPageTest.userLandingPageTitleTest()'><b>userLandingPageTitleTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.UserLandingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.digiCRMTest.autoqa.testcases.UserLandingPageTest@464bee09</td></tr>
+<tr>
+<td title='com.digiCRMTest.autoqa.testcases.UserLandingPageTest.userNameTest()'><b>userNameTest</b><br>Test class: com.digiCRMTest.autoqa.testcases.UserLandingPageTest<br/>
+<a href="#Output-123629835" onClick='toggleBox("Output-123629835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-123629835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-123629835">
+User Name Displayed Avinash Dyagala<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.digiCRMTest.autoqa.testcases.UserLandingPageTest@464bee09</td></tr>
+</table><p>
+</body>
+</html>

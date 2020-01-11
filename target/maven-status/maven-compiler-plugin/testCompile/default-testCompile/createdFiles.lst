@@ -1,0 +1,5 @@
+com\digiCRMTest\autoqa\testcases\ContactsPageTest.class
+com\digiCRMTest\autoqa\testcases\UserLandingPageTest.class
+com\digiCRMTest\autoqa\testcases\HomePageTest.class
+com\digiCRMTest\autoqa\testcases\LoginPageTest.class
+com\digiCRMTest\autoqa\testcases\PasswordResetPageTest.class

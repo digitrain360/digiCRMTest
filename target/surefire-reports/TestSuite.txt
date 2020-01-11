@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 153.72 s <<< FAILURE! - in TestSuite
+PasswordResetLinkTest(com.digiCRMTest.autoqa.testcases.LoginPageTest)  Time elapsed: 0.97 s  <<< FAILURE!
+java.lang.AssertionError: expected [Reset Password] but found [Cogmento CRM]
+	at com.digiCRMTest.autoqa.testcases.LoginPageTest.PasswordResetLinkTest(LoginPageTest.java:52)
+

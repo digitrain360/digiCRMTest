@@ -1,0 +1,8 @@
+2019-12-20 11:11:40 INFO  Logger:17 - Before navigating to: 'https://www.freecrm.com/'
+2019-12-20 11:11:43 INFO  Logger:21 - Navigated to:'https://www.freecrm.com/'
+2019-12-20 11:11:47 INFO  Logger:17 - Before navigating to: 'https://www.freecrm.com/'
+2019-12-20 11:11:49 INFO  Logger:21 - Navigated to:'https://www.freecrm.com/'
+2019-12-20 11:11:49 INFO  Logger:74 - Trying to find Element By : By.xpath: //div/ul/a[attribute::href='https://ui.freecrm.com']
+2019-12-20 11:11:49 INFO  Logger:80 - Found Element By : By.xpath: //div/ul/a[attribute::href='https://ui.freecrm.com']
+2019-12-20 11:11:49 INFO  Logger:33 - Trying to click on: [[ChromeDriver: chrome on XP (04f971719160b24a4069737dd0fd9116)] -> xpath: //div/ul/a[attribute::href='https://ui.freecrm.com']]
+2019-12-20 11:11:51 INFO  Logger:37 - Clicked on: [[ChromeDriver: chrome on XP (04f971719160b24a4069737dd0fd9116)] -> xpath: //div/ul/a[attribute::href='https://ui.freecrm.com']]

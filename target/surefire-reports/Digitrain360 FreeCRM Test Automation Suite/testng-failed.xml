@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Digitrain360 FreeCRM Test Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.digiCRMTest.autoqa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Digitrain360 FreeCRM Application Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.digiCRMTest.autoqa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="PasswordResetLinkTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.digiCRMTest.autoqa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Digitrain360 FreeCRM Application Tests(failed) -->
+</suite> <!-- Failed suite [Digitrain360 FreeCRM Test Automation Suite] -->

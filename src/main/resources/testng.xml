@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Digitrain360 FreeCRM Test Automation Suite">
+	<listeners>
+		<listener class-name="com.digiCRMTest.autoqa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="Digitrain360 FreeCRM Application Tests">
+		<classes>
+			<class name="com.digiCRMTest.autoqa.testcases.HomePageTest"></class>
+			<class name="com.digiCRMTest.autoqa.testcases.LoginPageTest"></class>
+			<class name="com.digiCRMTest.autoqa.testcases.UserLandingPageTest"></class>
+			<class name="com.digiCRMTest.autoqa.testcases.PasswordResetPageTest"></class>
+			<class name="com.digiCRMTest.autoqa.testcases.ContactsPageTest"></class>
+		</classes>
+	</test>
+</suite>
